@@ -2,7 +2,7 @@
     const name: string = 'world!'
 </script>
 
-<p class="myp">
+<p class="myp center">
     hello {name}
 </p>
 

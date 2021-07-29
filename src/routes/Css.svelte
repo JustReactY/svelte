@@ -2,7 +2,7 @@
     const name: string = 'world!'
 </script>
 
-<p class="myp">
+<p class="myp center">
     hello {name}
 </p>
 
@@ -14,5 +14,13 @@
 
     .myp {
         font-size: 72px;
+    }
+
+    p:global(.center) {
+        text-align: center;
+    }
+
+    :global(p) {
+        margin: 0;
     }
 </style>
